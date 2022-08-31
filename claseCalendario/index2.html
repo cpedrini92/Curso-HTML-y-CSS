@@ -10,25 +10,25 @@
     <main>
         <form action="">
         <label for="nombre">
-            <span></span>
-        <input type="text">
+            <span>¿Cuál es tu nombre?</span>
+        <input type="text" name="nombre" id="nombre" autocomplete="name" required>
         </label>
 
         <label for="correo">
-            <span></span>
-        <input type="text">
+            <span>¿Cuáles tu correo?</span>
+        <input type="email" name="correo" id="correo" autocomplete="email" required>
         </label>
 
         <label for="pais">
-            <span></span>
-        <input type="text">
+            <span>¿Cuál es tu pais?</span>
+        <input type="text" name="pais" id="pais" autocomplete="country" required>
         </label>
 
-        <label for="">
-            <span></span>
-        <input type="text">
+        <label for="cp">
+            <span>¿Cuáles tu código postal</span>
+        <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
         </label>
-
+<input type="submit">
 
         </form>
     </main>
