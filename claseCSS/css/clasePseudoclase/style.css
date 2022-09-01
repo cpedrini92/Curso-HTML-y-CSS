@@ -25,3 +25,6 @@
     color: black;
 }
 
+.main-nav__item a::after{
+   content: " | ";
+}
