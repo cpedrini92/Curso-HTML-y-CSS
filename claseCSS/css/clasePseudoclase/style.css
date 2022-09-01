@@ -1,3 +1,11 @@
+
+body {
+    heigh:665px;
+    background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png");
+    background-size: 10rem;
+    
+  }
+
 .main-nav {
     margin-top: 10px;
     list-style: none;
@@ -20,6 +28,7 @@
 .main-nav__item a:hover{
     color: blue;
 }
+
 
 .main-nav__item a:active{
     color: black;
