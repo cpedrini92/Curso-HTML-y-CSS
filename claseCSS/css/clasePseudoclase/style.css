@@ -16,3 +16,12 @@
     text-decoration: none;
     background-color: red;
 }
+
+.main-nav__item a:hover{
+    color: blue;
+}
+
+.main-nav__item a:active{
+    color: black;
+}
+
