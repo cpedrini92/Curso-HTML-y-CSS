@@ -14,6 +14,8 @@
 
     .container {
         border:.3rem solid black ;
+        display: flex;/* ahora las 6 cajas van de costado*/
+        flex-direction: column;/* para que vuelva a estar en vertical*/
     }
 
     .box {
