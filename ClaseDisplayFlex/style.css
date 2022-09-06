@@ -11,3 +11,36 @@
     body {
         font-size: 1.6rem;
     }
+
+    .container {
+        border:.3rem solid black ;
+    }
+
+    .box {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .box1 {
+        background-color: yellow;
+    }
+
+    .box2 {
+        background-color: orange;
+    }
+
+    .box3 {
+        background-color: orangered;
+    }
+
+    .box4 {
+        background-color: grey;
+    }
+
+    .box5 {
+        background-color: cyan;
+    }
+
+    .box6 {
+        background-color: green;
+    }
