@@ -15,7 +15,7 @@
     .container {
         border:.3rem solid black ;
         display: flex;/* ahora las 6 cajas van de costado*/
-        flex-wrap: wrap; /*se bajan cuando hay menos espacio*/
+        justify-content: center; /* se centra*/
     }
 
     .box {
