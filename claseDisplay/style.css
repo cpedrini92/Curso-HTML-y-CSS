@@ -1,21 +1,33 @@
 
-.block-element {
-    background-color: green;
-    margin: 10px;
-    padding: 20px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+html{
+    font-size: 62.5%;
 }
 
-.nav {
-    background-color: peachpuff;
-    padding: 20px;
+body{
+    font-size: 1.6rem;
+}
+
+li{
     list-style: none;
-    text-align: end;
 }
 
-.nav li {
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px o;
-    padding-left: 20px;
-    padding-right: 20px;
+header {
+    height: 10vh;
+    background-color: brown;
+}
+
+main{
+    height: 80vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: orangered;
 }
