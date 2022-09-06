@@ -15,7 +15,7 @@
     .container {
         border:.3rem solid black ;
         display: flex;/* ahora las 6 cajas van de costado*/
-        justify-content: center; /* se centra*/
+        justify-content: space-around; /* espacio centrado*/
     }
 
     .box {
