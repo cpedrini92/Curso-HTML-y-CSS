@@ -27,30 +27,30 @@
 
     .box1 {
         background-color: yellow;
-        order: 3;
+        flex-grow: 1;
     }
 
     .box2 {
         background-color: orange;
-        order: 5;
+        flex-grow: 1;
     }
 
     .box3 {
         background-color: orangered;
-        order: 1;
+        flex-grow: 1;
     }
 
     .box4 {
         background-color: grey;
-        order: 4;
+        flex-grow: 1;
     }
 
     .box5 {
         background-color: cyan;
-        order: 6;
+        flex-grow: 1;
     }
 
     .box6 {
         background-color: green;
-        order: 2;
+        flex-grow: 1;
     }
