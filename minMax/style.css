@@ -9,3 +9,13 @@ main {
     height: 100vh;
     background-color: purple;
 }
+
+
+section{
+    width: 80%; /*siempre en %*/ 
+    min-width: 320px; /*tamaño minimo */
+    max-width: 500px; /*tamaño maximo */
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: red;
+}
