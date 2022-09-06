@@ -15,7 +15,9 @@
     .container {
         border:.3rem solid black ;
         display: flex;/* ahora las 6 cajas van de costado*/
-        justify-content: space-around; /* espacio centrado*/
+        align-items: center;
+        height: 50vw;
+       
     }
 
     .box {
@@ -25,24 +27,30 @@
 
     .box1 {
         background-color: yellow;
+        order: 3;
     }
 
     .box2 {
         background-color: orange;
+        order: 5;
     }
 
     .box3 {
         background-color: orangered;
+        order: 1;
     }
 
     .box4 {
         background-color: grey;
+        order: 4;
     }
 
     .box5 {
         background-color: cyan;
+        order: 6;
     }
 
     .box6 {
         background-color: green;
+        order: 2;
     }
