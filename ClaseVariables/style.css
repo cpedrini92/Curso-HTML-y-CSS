@@ -19,3 +19,14 @@ main{
     height: 70vh;
     font-size: 18px;
 }
+
+h1{
+    font-size: 4rem;
+    color: #003476;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: #b4d2f7;
+}
