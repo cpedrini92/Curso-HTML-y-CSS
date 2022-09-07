@@ -1,6 +1,10 @@
 :root{
     --primary-color:#003476;
+    --secundary-color:#b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +18,7 @@ html{
 header{
     width: 100vw;
     height: 15vw;
-    background-color: #003476;
+    background-color: var(--primary-color);
 }
 
 main{
