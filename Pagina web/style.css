@@ -123,6 +123,7 @@ padding: 100px 12px;
 #nuestros-servicios h2{
     margin-top: 0;
     margin-bottom: 20px;
+    font-size: 3.2rem;
 }
 #nuestros-servicios p{
     display: none;
