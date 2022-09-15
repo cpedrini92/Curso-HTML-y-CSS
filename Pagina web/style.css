@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-html {font-size: 62.5%;}
+html {font-size: 62.5%;
+scroll-behavior: smooth;}
 
 body{font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -36,6 +37,11 @@ button:hover{
     margin: auto;
 }
 
+
+.color-acento{
+    color: blueviolet;
+}
+
 header{
     background-color: rgb(245, 245, 245);
 }
@@ -45,7 +51,7 @@ header .logo{
     padding: 25px 30px;
     font-weight: bold;
     color: blueviolet;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 header .container{
@@ -66,6 +72,7 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: black;
+    font-size: 1.2rem;
 }
 
 header a:hover{
@@ -84,8 +91,71 @@ header a:hover{
         0deg,
      rgba(0,0,0,0.5),
      rgba(0,0,0,0.5))
-    ,url("./img/hero\ chica.jpg");
+    ,url("./img/hero-mediana.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+/*#somos-proya{
+
+}*/
+
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-servicios{
+    background-color: rgba(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-servicios .container{
+padding: 100px 12px;
+}
+
+#nuestros-servicios h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#nuestros-servicios p{
+    display: none;
+}
+
+#nuestros-servicios .carta{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5))
+    ,url("./img/Sonido-mediana.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5))
+    ,url("./img/front-mediana.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5))
+    ,url("./img/electricidad-mediana.jpg");  
 }
