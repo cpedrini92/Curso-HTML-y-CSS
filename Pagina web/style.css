@@ -11,16 +11,16 @@ body{font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {font-size: 1.8rem;}
-h1{font-size: 3rem;}
-h2{font-size: 2.6rem;
+h1{font-size: 3.2rem;}
+h2{font-size: 2.8rem;
 margin-bottom: 2rem;}
-h3{font-size: 2rem;
+h3{font-size: 2.2rem;
     margin-bottom: 1rem;}
 ul{list-style: none;}
 li{font-size: 1.5rem;}
 
 button{
-    font-size: 1.5vw;
+    font-size: 3.2vw;
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 10px;
@@ -50,17 +50,17 @@ header{
 
 header .logo{
     margin:0;
-    padding: 25px 30px;
+    padding:15px 30px 8px 30px;
     font-weight: bold;
     color: blueviolet;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 header .container{
  display: flex;
  flex-direction: column;
  align-items: center;
- height: vh;
+ height: 15vh;
 }
 
 header nav{
@@ -88,7 +88,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 100vh;
+    height: 84vh;
     color: white;
     background-image: linear-gradient(
         0deg,
@@ -135,6 +135,7 @@ height: 100vh;
 
 #nuestros-servicios .container{
 padding: 8rem 1.5rem;
+height: 100vh;
 
 
 }
@@ -142,7 +143,7 @@ padding: 8rem 1.5rem;
 #nuestros-servicios h2{
     margin-top: -6rem;
     margin-bottom: 1rem;
-    font-size: 3.4rem;
+    font-size: 3rem;
 }
 #nuestros-servicios p{
     display: none;
@@ -151,7 +152,7 @@ padding: 8rem 1.5rem;
 #nuestros-servicios .carta{
     background-size: cover;
     background-position: center center;
-    padding: 5rem;
+    padding: 4rem;
     margin: 2rem;
     border-radius: 15px;
 }
@@ -201,10 +202,10 @@ height: 100vh;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    height: 93vh;
     background-color:rgba(30, 30, 30);
     color: white;
-    height: 80vh;
+  
 }
 
 #final h2{
