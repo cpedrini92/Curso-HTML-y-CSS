@@ -168,12 +168,16 @@ padding: 8rem 1.5rem;
 
 
 #caracteristicas .container{
+display: flex;
+align-items: center;
 text-align: center;
-padding: ;
+justify-content: center;
+height: 100vh;
+
 }
 
 #caracteristicas li {
     margin: 15px 0px;
     font-weight: bold;
-    padding: 0.2rem 1.8rem;
+  
 }
