@@ -12,13 +12,15 @@ body{font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 p {font-size: 1.8rem;}
 h1{font-size: 3rem;}
-h2{font-size: 2.6rem;}
-h3{font-size: 2rem;}
+h2{font-size: 2.6rem;
+margin-bottom: 2rem;}
+h3{font-size: 2rem;
+    margin-bottom: 1rem;}
 ul{list-style: none;}
 li{font-size: 1.5rem;}
 
 button{
-    font-size: 1.8rem;
+    font-size: 1.5vw;
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 10px;
@@ -102,14 +104,26 @@ header a:hover{
     color: white;
 }
 
+#hero button{
+    font-size: 1.7rem;
+}
+
 /*#somos-proya{
 
 }*/
 
 #somos-proya .container{
-    height: 100vh;
+   /* height: 100vh;
     text-align:center;
-    padding: 25rem 1.8rem;
+    padding: 25rem 1.8rem;*/
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-bottom: 1rem;
+height: 100vh;
+
 }
 
 #nuestros-servicios{
@@ -178,6 +192,41 @@ height: 100vh;
 
 #caracteristicas li {
     margin: 15px 0px;
-    font-weight: bold;
-  
+    font-weight: bold; 
+}
+
+#final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color:rgba(30, 30, 30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 7.5vw;
+}
+
+#final button {
+    font-size: 4vw;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin: 0;
+    padding: 1.2rem;
+    color: rgb(100, 100, 100);
+}
+footer .container{
+height: 7vh;
+display: flex;
+justify-content: center;
+align-items: flex-end;
 }
