@@ -246,26 +246,36 @@ align-items: flex-end;
     padding-right: 2rem;
    }
 
+   #hero h1{
+    font-size: 5rem;
+   }
    #somos-proya .container{
     display: flex;
-   flex-wrap: wrap;
+    flex-direction: row;
    }
 
    #somos-proya .texto{
     width: 50%;
+    max-width: 600px;
     text-align: initial;
-    padding: 0px 30px;
+    padding-left: 5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
    }
 
    #somos-proya .img-container{
     background-image: url("./img/Chris2.png");  
     background-size:cover ;
     background-position: center center;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
    }
 
 
-
+#nuestros-servicios .servicios{
+    
+}
 
 }
