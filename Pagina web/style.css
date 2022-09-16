@@ -58,11 +58,12 @@ header .container{
  display: flex;
  flex-direction: column;
  align-items: center;
+ height: vh;
 }
 
 header nav{
     display: flex;
-    flex-direction: column;
+    flex-direction:initial;
     text-align: center;
     padding-bottom: 25px;
 }
@@ -85,7 +86,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     color: white;
     background-image: linear-gradient(
         0deg,
@@ -106,24 +107,28 @@ header a:hover{
 }*/
 
 #somos-proya .container{
-    text-align: center;
-    padding: 200px 12px;
+    height: 100vh;
+    text-align:center;
+    padding: 25rem 1.8rem;
 }
 
 #nuestros-servicios{
     background-color: rgba(30, 30, 30);
     color: white;
     text-align: center;
+   
 }
 
 #nuestros-servicios .container{
-padding: 100px 12px;
+padding: 8rem 1.5rem;
+
+
 }
 
 #nuestros-servicios h2{
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 3.2rem;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+    font-size: 3.4rem;
 }
 #nuestros-servicios p{
     display: none;
@@ -132,8 +137,8 @@ padding: 100px 12px;
 #nuestros-servicios .carta{
     background-size: cover;
     background-position: center center;
-    padding: 50px;
-    margin: 20px;
+    padding: 5rem;
+    margin: 2rem;
     border-radius: 15px;
 }
 
@@ -159,4 +164,16 @@ padding: 100px 12px;
      rgba(0,0,0,0.5),
      rgba(0,0,0,0.5))
     ,url("./img/electricidad-mediana.jpg");  
+}
+
+
+#caracteristicas .container{
+text-align: center;
+padding: ;
+}
+
+#caracteristicas li {
+    margin: 15px 0px;
+    font-weight: bold;
+    padding: 0.2rem 1.8rem;
 }
