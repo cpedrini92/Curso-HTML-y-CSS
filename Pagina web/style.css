@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+
+
+/* COLORES img MIC HERO
+#593B54 morado oscuro
+#734D70 morado suave
+#5A4073 morado
+#382F73  fucsia/azul
+#F2F2F2   blanco
+*/
 html {font-size: 62.5%;
 scroll-behavior: smooth;}
 
@@ -41,7 +50,7 @@ button:hover{
 
 
 .color-acento{
-    color: blueviolet;
+    color:#256D85;
 }
 
 header{
@@ -52,7 +61,7 @@ header .logo{
     margin:0;
     padding:15px 30px 8px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: #256D85;
     font-size: 3rem;
 }
 
@@ -79,7 +88,7 @@ header a{
 }
 
 header a:hover{
-    color: blueviolet;
+    color: #256D85;
 }
 
 #hero{
@@ -288,11 +297,12 @@ justify-content: center;
 
 #nuestros-servicios p{
     display: block;
-    margin-bottom: 3.5rem;
+    margin-bottom: 5rem;
 }
 
 #nuestros-servicios h2{
     font-size: 4rem;
+    margin-top: -3rem;
 }
 
 #nuestros-servicios h3{
@@ -302,6 +312,7 @@ justify-content: center;
 
 #nuestros-servicios .carta{
     padding: 2rem;
+    margin-top: 3rem;
     background-size: 100% 120px;
     background-repeat: no-repeat;
     background-position-y: 0;
