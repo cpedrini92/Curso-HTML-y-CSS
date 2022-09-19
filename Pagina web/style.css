@@ -191,13 +191,22 @@ height: 100vh;
 
 #caracteristicas .container{
 display: flex;
+flex-direction: column;
 align-items: center;
 text-align: center;
 justify-content: center;
 height: 100vh;
 
 }
-
+.clases {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -6rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    
+}
 #caracteristicas li {
     margin: 15px 0px;
     font-weight: bold; 
