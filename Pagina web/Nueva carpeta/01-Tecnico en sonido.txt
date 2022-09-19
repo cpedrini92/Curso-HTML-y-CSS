@@ -4,3 +4,4 @@ obras de teatro/Bandas. <br>
 -Planeación <br>
 -Instalación de equipamiento. <br>
 -Stage Manager.
+-Clases particulares.

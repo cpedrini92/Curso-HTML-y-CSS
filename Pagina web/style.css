@@ -159,8 +159,8 @@ height: 100vh;
 #nuestros-servicios .carta{
     background-size: cover;
     background-position: center center;
-    padding: 4rem;
-    margin: 2rem;
+    padding: 3.5rem;
+    margin: 1rem;
     border-radius: 15px;
 }
 
@@ -359,7 +359,7 @@ justify-content: center;
     background-repeat: no-repeat;
     background-size: 400px;
     
-background-position: calc(100vw - 480px) 170px ;
+background-position: calc(100vw - 480px) 190px ;
 }
 
 #caracteristicas .container{
