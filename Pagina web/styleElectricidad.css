@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* COLORES img MIC HERO
+#593B54 morado oscuro
+#734D70 morado suave
+#5A4073 morado
+#382F73  fucsia/azul
+#F2F2F2   blanco
+*/
+html {font-size: 62.5%;
+scroll-behavior: smooth;}
+
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {font-size: 1.8rem;}
+h1{font-size: 3.2rem;}
+h2{font-size: 2.8rem;
+margin-bottom: 2rem;}
+h3{font-size: 2.2rem;
+    margin-bottom: 1rem;}
+ul{list-style: none;}
+li{font-size: 1.5rem;}
+
+
+body{
+    background-color: #734D70;
+    color: #F2F2F2;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.2rem;
+
+}
+
+p {
+    margin-top: 5rem;
+    color:white ;
+}
