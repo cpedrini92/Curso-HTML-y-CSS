@@ -120,6 +120,13 @@ header a:hover{
 /*#somos-proya{
 
 }*/
+#somos-proya .img-container{
+    background-image: url("./img/Chris2.png");  
+    background-size:cover ;
+    background-position: center center;
+    width: 30vw;
+   }
+
 
 #somos-proya .container{
  
@@ -236,6 +243,20 @@ height: 100vh;
     font-size: 4vw;
 }
 
+
+.whatsapp{
+   font-size: 3.2vw;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    color: white;
+    background-color:#256D85;
+    text-decoration: none;
+}
+
+
 footer{
     background-color: rgb(230, 230, 230);
 }
@@ -251,6 +272,9 @@ display: flex;
 justify-content: center;
 align-items: flex-end;
 }
+
+
+
 
 
 
