@@ -120,13 +120,6 @@ header a:hover{
 /*#somos-proya{
 
 }*/
-#somos-proya .img-container{
-    background-image: url("./img/Chris2.png");  
-    background-size:cover ;
-    background-position: center center;
-    width: 30vw;
-   }
-
 
 #somos-proya .container{
  
@@ -272,9 +265,6 @@ display: flex;
 justify-content: center;
 align-items: flex-end;
 }
-
-
-
 
 
 
