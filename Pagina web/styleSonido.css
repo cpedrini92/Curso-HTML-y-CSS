@@ -38,10 +38,7 @@ body{
     background-color: rgba(30, 30, 30);;
     color: #F2F2F2;
  
-  
 }
-
-
 
 
 nav{ 
@@ -75,14 +72,12 @@ button a:hover{
 
 #trabajos-sonido .container{
 padding: 8rem 1.5rem;
-height: 100vh;
-
-
+height: 78vh;
 }
 
 #trabajos-sonido h2{
-    margin-top: -6rem;
-    margin-bottom: 1rem;
+    margin-top: -10rem;
+    margin-bottom: 0rem;
     font-size: 3rem;
 }
 #trabajos-sonido p{
@@ -92,9 +87,10 @@ height: 100vh;
 #trabajos-sonido .carta{
     background-size: cover;
     background-position: center center;
-    padding: 3.5rem;
-    margin: 1rem;
+    padding: 3.8rem;
+    margin: 2rem;
     border-radius: 15px;
+    margin-top: 2rem;
 }
 
 .carta a{
@@ -124,6 +120,42 @@ height: 100vh;
      rgba(0,0,0,0.5))
     ,url("./img/cursos.jpg");  
 }
+
+#final{
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+#final a{
+    text-decoration: none;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    }
+   
+   #final a:hover {
+        transform: scale(1.2);
+      }
+
+
+#final h2{
+    font-size: 7.5vw;
+}
+
+#final button {
+    font-size: 4vw;
+}
+
+
+
+
 
 
 
@@ -157,9 +189,9 @@ height: 100vh;
         border-radius: 10px;
     }
  #trabajos-sonido .programas{
-     display: flex;
- justify-content: center;
- height: 70vh;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
  }
  
  #trabajos-sonido h2{
@@ -200,12 +232,32 @@ height: 100vh;
  }
  
  .carta:nth-child(3){
+   
      background-image: linear-gradient(
-         0deg,
+         0deg
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5))
      ,url("./img/cursos.jpg");  
+     
  }
  
+#final{
+    min-width: 98vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+   
+   #final a:hover {
+        transform: scale(1.2);
+      }
+
+
+
+#final button {
+    font-size: 4vw;
+}
+
+
  }
- 

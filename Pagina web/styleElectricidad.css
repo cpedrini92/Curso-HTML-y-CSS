@@ -63,30 +63,30 @@ button a:hover{
     border-radius: 2px;
 }
 
-#trabajos-programacion{
+#trabajos-electricidad{
     background-color: rgba(30, 30, 30);
     color: white;
     text-align: center;
    
 }
 
-#trabajos-programacion .container{
+#trabajos-electricidad .container{
 padding: 8rem 1.5rem;
 height: 78vh;
 
 
 }
 
-#trabajos-programacion h2{
+#trabajos-electricidad h2{
     margin-top: -10rem;
     margin-bottom: 0rem;
     font-size: 3rem;
 }
-#trabajos-programacion p{
+#trabajos-electricidad p{
     display: none;
 }
 
-#trabajos-programacion .carta{
+#trabajos-electricidad .carta{
     background-size: cover;
     background-position: center center;
     padding: 5rem;
@@ -104,7 +104,7 @@ height: 78vh;
         0deg,
      rgba(0,0,0,0.5),
      rgba(0,0,0,0.5))
-    ,url("./img/mokepon.jpg");
+    ,url("./img/plano.jpeg");
 }
 
 .carta:nth-child(2){
@@ -112,7 +112,7 @@ height: 78vh;
         0deg,
      rgba(0,0,0,0.5),
      rgba(0,0,0,0.5))
-    ,url("./img/css.jpg");
+    ,url("./img/inst.jpeg");
 }
 
 .carta:nth-child(3){
@@ -120,7 +120,7 @@ height: 78vh;
         0deg,
      rgba(0,0,0,0.5),
      rgba(0,0,0,0.5))
-    ,url("./img/js.jpg");  
+    ,url("./img/mant.jpeg");  
 }
 
 #final{
@@ -129,15 +129,6 @@ height: 78vh;
     justify-content: space-around;
 }
 #final a{
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 93vh;
-    background-color:rgba(30, 30, 30);
-    color: white;*/
-
     text-decoration: none;
     font-size: 2rem;
     width: 5rem;
@@ -163,6 +154,8 @@ height: 78vh;
 #final button {
     font-size: 4vw;
 }
+
+
 
 
 
@@ -201,24 +194,24 @@ height: 78vh;
         padding: 1.2rem;
         border-radius: 10px;
     }
- #trabajos-programacion .programas{
+ #trabajos-electricidad .programas{
     display: flex;
     justify-content: center;
     height: 70vh;
  }
  
- #trabajos-programacion h2{
+ #trabajos-electricidad h2{
     font-size: 4rem;
     margin-top: 3rem;
     margin-bottom: -9rem;
  }
  
- #trabajos-programacion h3{
+ #trabajos-electricidad h3{
      margin-top: 0px;
      margin-bottom: 5rem;
  }
  
- #trabajos-programacion .carta{
+ #trabajos-electricidad .carta{
     padding: 6rem;
     margin-top: 18rem;
     background-color: rgba(50, 50, 50, 0.5);
@@ -233,7 +226,7 @@ height: 78vh;
          0deg,
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5))
-     ,url("./img/mokepon.jpg");
+     ,url("./img/plano.jpeg");
  }
  
  .carta:nth-child(2){
@@ -241,7 +234,7 @@ height: 78vh;
          0deg,
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5))
-     ,url("./img/css.jpg");
+     ,url("./img/inst.jpeg");
  }
  
  .carta:nth-child(3){
@@ -250,7 +243,7 @@ height: 78vh;
          0deg
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5))
-     ,url("./img/js");  
+     ,url("./img/mant.jpeg");  
      
  }
  
